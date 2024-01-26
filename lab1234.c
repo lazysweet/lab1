@@ -5,11 +5,11 @@ int sort(int n);
 int main(){
      printf("Введите число\n");
      int n;
-      if(scanf("%d", &n)!=1 || n<0 || (long int)n!=n}{
+      if(scanf("%d", &n)!=1 || n<0 || (long int)n!=n){
        printf("Мы так не умеем, пока");
        return -1;
       }
-     printf("%d",sort (n));
+     printf("%d\n",sort (n));
      return 0;
 }
 
